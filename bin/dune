@@ -1,0 +1,4 @@
+(executable
+ (name blog)
+ (promote (until-clean))
+ (libraries yocaml yocaml_jingoo yocaml_markdown yocaml_unix yocaml_yaml))
