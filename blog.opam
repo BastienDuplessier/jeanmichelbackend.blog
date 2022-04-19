@@ -1,0 +1,38 @@
+opam-version: "2.0"
+version: "dev"
+synopsis: "My funny blog."
+maintainer: "bastien.duplessier@gmail.com"
+authors: [ "Bastien Duplessier <bastien.duplessier@gmail.com>" ]
+
+build: [
+  [ "dune" "subst" ]
+  [ "dune" "build" "-p" name "-j" jobs ]
+  [ "dune" "runtest" "-p" name ] {with-test}
+  [ "dune" "build" "@doc" "-p" name ] {with-doc}
+]
+
+license: "GPL-3.0-or-later"
+tags: [ "jean" "michel" "backend" "ocaml" "preface" "yocaml" ]
+homepage: "http://jeanmichelbackend.fr"
+dev-repo: "git://github.com/BastienDuplessier/jeanmichelbackend.blog.git"
+bug-reports: "https://github.com/BastienDuplessier/jeanmichelbackend.blog/issues"
+
+depends: [
+  "ocaml" { >= "4.11.1" }
+  "dune" { >= "2.8" }
+  "preface" { >= "0.1.0" }
+  "yocaml" {pinned}
+  "yocaml_unix" {pinned}
+  "yocaml_yaml" {pinned}
+  "yocaml_markdown" {pinned}
+  "yocaml_jingoo" {pinned}
+]
+
+
+pin-depends: [
+  ["yocaml.dev" "git+https://github.com/xhtmlboi/yocaml.git"]
+  ["yocaml_unix.dev" "git+https://github.com/xhtmlboi/yocaml.git"]
+  ["yocaml_yaml.dev" "git+https://github.com/xhtmlboi/yocaml.git"]
+  ["yocaml_markdown.dev" "git+https://github.com/xhtmlboi/yocaml.git"]
+  ["yocaml_jingoo.dev" "git+https://github.com/xhtmlboi/yocaml.git"]
+]
