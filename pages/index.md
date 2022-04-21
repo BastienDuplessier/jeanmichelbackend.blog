@@ -8,5 +8,3 @@ _Note, aucun article n'est encore publié. Cliquez sur les liens à vos risques 
 - [Article 3](https://xvw.github.io/longs/introduction_aux_monades.html "Vous savez ce que c'est une monade ? Moi non plus, cet article tente de vous l'expliquer.")
 
 Merci pour votre attention
-
-Pour en savoir plus sur moi, allez donc lire cette [magnifique page](/about.html "Magnifique page à propos de moi.")
