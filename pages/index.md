@@ -9,4 +9,4 @@ _Note, aucun article n'est encore publié. Cliquez sur les liens à vos risques 
 
 Merci pour votre attention
 
-Pour en savoir plus sur moi, allez donc lire cette [magnifique page](/about.html "Magnifique page à propos de moi. Elle est pas encore en ligne mais ça va arriver.")
+Pour en savoir plus sur moi, allez donc lire cette [magnifique page](/about.html "Magnifique page à propos de moi.")
